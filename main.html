@@ -1,21 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <title>DOM Level Example</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<ul>
-		<li>Item 1</li>
-		<li>Item 2</li>
-		<li>Item 3</li>
-		<li>Item 4</li>
-		<li id="level">Item 5</li>
-		<li>Item 6</li>
-		<li>Item 7</li>
-		<li>Item 8</li>
-		<li>Item 9</li>
-		<li>Item 10</li>
-	</ul>
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <article>
+                    <div id="level">
+                        <!-- Element whose DOM level we want to determine -->
+                        <p>Hello, World!</p>
+                    </div>
+                </article>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
